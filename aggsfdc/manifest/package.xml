@@ -32,5 +32,22 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Opportunity</members>
+        <members>Lead</members>
+        <members>Case</members>
+        <members>*</members> <!-- all custom objects -->
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>RecordType</name>
+    </types>
     <version>63.0</version>
 </Package>
